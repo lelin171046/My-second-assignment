@@ -1,14 +1,171 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,800&display=swap');
 
-body{
+body {
+    max-width: 1100px;
+    border: 2px solid red;
     font-family: 'Mulish', sans-serif;
+    padding: 50px 120px;
 }
-nav{
+
+
+/* text size */
+.bold2 {
+    color: #131318;
+    font-size: 2.5rem;
+}
+
+.description {
+    color: #5A5A5D;
+    font-size: rem;
+    font-weight: 400;
+}
+
+/* universle button  */
+.orenge-btn {
+    color: #FFF;
+    font-size: 1.6rem;
+    background-color: #FF5400;
+    padding: 14px auto;
+
+}
+
+span {
+    color: #FF5400;
+}
+
+nav {
+    max-width: 1100px;
+    border: 2px solid red;
     display: flex;
     justify-content: space-between;
+    /* width: 50%; */
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+
+
+}
+
+.nav-container img {
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+
+}
+
+nav .title {
+    font-size: 2rem;
+}
+
+nav ul {
+    border: 2px solid red;
+    display: flex;
+    padding-top: 40px;
+    text-decoration: none;
+
+
+}
+
+nav li {
+    list-style: none;
+    padding-right: 35px;
+    font-size: 1rem;
+}
+
+.head-banner {
+    border: 2px solid red;
+
+    max-width: 1100px;
+    width: 100%;
+    height: 480px;
+    text-align: center;
+    border-radius: 16px;
+    background: no-repeat, linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/Group\ 13\ .png');
+
+}
+
+.head-banner .banner-title {
+    color: #FFF;
+    font-size: 4rem;
+}
+
+.head-banner .banner-description {
+    color: #FFF;
+    font-size: 1rem;
+}
+
+.head-banner .banner-buttons {
+    width: 750px;
+    /* margin-left: 165px; */
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    gap: 10px;
+    padding-right: 0;
+}
+
+button {
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    font-size: 1rem;
+    color: rgba(19, 19, 24, 0.50);
+    padding: 16px;
+}
+
+.banner-buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     
 }
 
-nav .logo{
+.banner-buttons .find-btn {
+    color: #FFF;
+    background-color: #FF5400;
+    font-size: 1rem;
+
+}
+
+.tour-section {
     display: flex;
+    padding: 50px 2px;
+    gap: 10px;
+}
+
+.tour-section .read {
+    width: 174px;
+    height: 52px;
+}
+
+.populur-tour {
+    width: 50%;
+    padding: 0 auto;
+    border: 2px solid red;
+    gap: 50px;
+}
+.tour-section.populur-tour img{
+    width: 50%;
+
+}
+.destination{
+    text-align: center;
+    padding: 30px 200px;
+}
+
+.img-section .row1{
+    display: flex;
+    justify-content: space-;
+    gap: 20px;
+
 }
