@@ -12,6 +12,12 @@ body {
 .bold2 {
     color: #131318;
     font-size: 2.5rem;
+
+    .bold3 {
+        color: #131318;
+        font-size: 24px;
+    }
+
 }
 
 .description {
@@ -123,11 +129,11 @@ button {
     padding: 16px;
 }
 
-.banner-buttons button{
+.banner-buttons button {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
 
 .banner-buttons .find-btn {
@@ -154,18 +160,19 @@ button {
     border: 2px solid red;
     gap: 50px;
 }
-.tour-section.populur-tour img{
+
+.tour-section.populur-tour img {
     width: 50%;
 
 }
 
 /* distination img  */
-.destination{
+.destination {
     text-align: center;
     padding: 30px 200px;
 }
 
-.img-section .row1{
+.img-section .row1 {
     display: flex;
     padding: 20px;
     gap: 20px;
@@ -173,26 +180,84 @@ button {
 }
 
 
-.img-section .row2, .row3{
+.img-section .row2,
+.row3 {
     display: flex;
     padding: 10px;
     gap: 20px;
-    
+
 }
 
-.img-section .srilangka, .kasmir{
+.img-section .srilangka,
+.kasmir {
     width: 30%;
 }
-.img-section .america{
+
+.img-section .america {
     width: 43%;
 }
 
-.img-section .bd{
+.img-section .bd {
     /* width: 30%; */
 }
 
 /* choose-section */
 
-.choose-section{
+.choose-section {
     text-align: center;
+}
+
+.service-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.service-section .service,
+.hotels {
+    border-radius: 16px;
+    width: 523px;
+
+    height: 254px;
+}
+
+.hotels {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service {
+
+    border: 1px solid rgba(41, 206, 246, 0.20);
+
+    background: rgba(41, 206, 246, 0.05);
+}
+.price-section{
+    
+}
+.best-price {
+    
+    border-radius: 16px;
+    width: 523px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    height: 254px;
+
+
+}
+
+
+.discountion .deal{
+    
+}
+
+footer{
+    border: 2px solid black;
+    max-width: 1100px;
+    height: 402px;
+}
+footer .foott{
+    display: flex;
+    border-bottom: 2px solid rgba(19, 19, 24, 0.10);
 }
