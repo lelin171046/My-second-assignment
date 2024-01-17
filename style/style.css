@@ -8,9 +8,11 @@ body {
     margin: 0 auto;
 }
 
-*{border: 2px solid red;
+* {
+    /* border: 2px solid red; */
 
 }
+
 /* text size */
 .bold2 {
     color: #131318;
@@ -167,8 +169,8 @@ button {
     gap: 50px; */
 }
 
-.tour-section.populur-tour img {
-    /* width: 50%; */
+.tour-section. .location-1{
+    background-image: url(../Images/Rectangle\ 5.png);
 
 }
 
@@ -184,6 +186,7 @@ button {
     display: flex;
     padding: 20px;
     gap: 20px;
+    
 
 }
 
@@ -285,9 +288,10 @@ button {
 
 }
 
-.discountion{
+.discountion {
     text-align: center;
 }
+
 .package-btn {
     margin: 30px;
     color: #FFF;
@@ -300,12 +304,14 @@ button {
 
 }
 
+
 /* review-section */
 
 .review-section {
     display: flex;
 }
-.bd-video{
+
+.bd-video {
     border-radius: 10px;
 }
 
@@ -329,7 +335,7 @@ button {
 .subscribe .subscribe-form input {
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    padding: 10px 16px;
+    padding: 5px 10px;
     border: 0;
     max-width: 390px;
     width: 100%;
@@ -345,7 +351,7 @@ button {
 
 
 .subscribe .save-up {
-    width: 50%;
+    width: 100%
 }
 
 /* footer style  */
@@ -371,9 +377,9 @@ footer .brand-logo {
     justify-content: center;
     align-items: center;
 }
-footer .foot-discription{
-    
-}
+
+footer .foot-discription {}
+
 footer .right {
     text-align: center;
 
