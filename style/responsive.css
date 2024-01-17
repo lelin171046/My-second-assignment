@@ -69,22 +69,71 @@
     flex-direction: column;
     align-items: center;
     height: auto;
-    padding: 0;
+    padding: 10px auto;
     gap: 0px;
 }
 
+.tour-section img{
+    margin-top: 10px;
+    width: 100%;
+}
 .populur-tour {
     align-items: center;
-    width: 50%;
+    /* width: 50%; */
     padding: 0;
     margin: 0%;
     
 }
     
+/* img scction  */
 
+.img-section .row1, .row2,.row3{
+    flex-direction: column;
+}
 
-footer{
+.img-section .srilangka,
+.kasmir {
     width: 100%;
+ flex-direction: column;}
+    .img-section .america {
+        width: 100%;
+    }
+
+.service-section{
+    width: 100%;
+    flex-direction: column;
+}
+
+.discountion img{
+    width: 100%;
+
+}
+
+.review-section{
+    padding: 10px auto;
+    flex-direction: column;
+}
+
+.best-price {
+    width: 90vw;
+    padding: 20px 0px;
+
+}
+
+.bd-video{
+    width: 100%;
+}
+.subscribe{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+.subscribe img{
+    width: 140%;
+}
+footer{
+    width: 90vw;
 }
 
 
