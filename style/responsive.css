@@ -129,8 +129,19 @@
     justify-content: center;
     max-width: 100%;
 }
+.Subscribe-btn{
+    width: 100%;
+}
+
 .subscribe img{
     width: 140%;
+}
+
+.save-up {
+    width: auto;
+    position: relative;
+    bottom: auto;
+    left: auto;
 }
 footer{
     width: 90vw;

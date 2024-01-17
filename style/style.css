@@ -304,7 +304,51 @@ button {
 
 }
 
+.booking-1 {
+    max-width: 500px;
+    max-height: 300px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
 
+.booking-1{
+    position: relative;
+    bottom: 430px;
+    left: 600px;
+}
+
+.booking-2 {
+    max-width: 500px;
+    max-height: 300px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.booking-2{
+    position: relative;
+    bottom: 430px;
+    left: 80px;
+}
+.booking-3 {
+    max-width: 500px;
+    max-height: 300px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.booking-3{
+    position: relative;
+    bottom: 430px;
+    left: 600px;
+}
 /* review-section */
 
 .review-section {
@@ -348,8 +392,9 @@ button {
 }
 
 .Subscribe-btn {
-    width: 380px;
-    height: 40px;
+    max-width: 380px;
+    width: 100%;
+    max-height: 40px;
     padding: 5px 10px;
 }
 
@@ -364,6 +409,13 @@ button {
     transform: rotate(-19.628deg);
     border-radius: 16px;
     background: #FF5400;
+}
+
+.save-up {
+    position: relative;
+    bottom: 150px;
+    left: 400px;
+
 }
 
 /* footer style  */
